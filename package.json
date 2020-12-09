@@ -1,7 +1,7 @@
 {
-  "name": "react-native-star-prnt",
-  "version": "1.2.0",
-  "description": "StarPRNT React Native bridge for Star Micronics Bluetooth/LAN printers",
+  "name": "react-native-star-prnt-fork",
+  "version": "1.3.0",
+  "description": "StarPRNT React Native bridge for Star Micronics Bluetooth/LAN printers Forked By WorkflowPOS",
   "types": "./types/index.d.ts",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/infoxicator/react-native-star-prnt"
+    "url": "https://github.com/workflowPOS/react-native-star-prnt-fork"
   },
   "keywords": [
     "react-native",
@@ -24,7 +24,7 @@
     "ios",
     "android"
   ],
-  "author": "Ruben Casas",
+  "author": "Ruben Casas; Forked by Mohamed Adam",
   "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2"
