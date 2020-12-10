@@ -444,6 +444,8 @@ export interface PrintCommand {
      * Example2 Append absolute position to subsequent commands: {appendAlignment:AlignmentPosition.Center}
      */
     appendAlignment?: string;
+
+    data?: string;
     /**
      * Horizontal tab set/clear command is generated and added to the command buffer. (Only works for certain printer models, check the starSDK documentation for details)
      * Array of horizontal tab positions (Units: ANK character pitch). Specifying empty array deletes all currently set horizontal tab positions.
